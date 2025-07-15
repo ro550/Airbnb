@@ -57,7 +57,7 @@ class Booking:
         print(f"Guest {booking.guest_id} has checked in to property {booking.property_id}!")
         
     @staticmethod
-    def check_out(booking):
+    def check_out(booking, property):
         # Implement check_out logic (e.g., collect feedback,release deposit)
         print(f"Guest {booking.guest_id} has checked out of property {booking.property_id}.")
         # Mark property available again in calendar
